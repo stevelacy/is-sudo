@@ -2,25 +2,29 @@
   "name": "is-sudo",
   "version": "0.1.0",
   "description": "check if process has sudo access",
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
   "main": "index.js",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.0.1"
+  },
   "scripts": {
     "test": "mocha test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevelacy/is-sudo.git"
+    "url": "git@github.com:stevelacy/is-sudo"
   },
   "keywords": [
-    "sudo"
+    "sudo",
+    "check"
   ],
-  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stevelacy/is-sudo/issues"
   },
   "homepage": "https://github.com/stevelacy/is-sudo#readme",
-  "devDependencies": {
-    "mocha": "^2.3.4",
-    "should": "^7.1.1"
-  }
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
 }
